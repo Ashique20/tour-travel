@@ -1,0 +1,780 @@
+/* custom styles */
+    :root{
+        --padding: 20px;
+        --margin-top: 100px;
+        --color: white;
+        --font-size: 40px;
+    }
+
+/* Nabar */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 30px;
+}
+
+.nav-logo span {
+    color: #FF5400;
+}
+
+nav img {
+    width: 40px;
+    height: 40px;
+}
+
+nav>ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+
+}
+
+/* banner */
+.banner {
+
+    background-image:
+    linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0.5)),
+
+        url('/Images/Group\ 13\ \(1\)\ \(1\).png');
+
+
+    background-repeat: no-repeat;
+   
+    margin-left: 260px;
+    border-radius: 20px;
+    text-align: center;
+    
+
+}
+
+.title{
+    padding: 50px;
+    width: 500px;
+    margin-left: 340px;
+}
+
+.title h1 {
+    color: #FFFFFF;
+    font-size: 60px;
+   
+}
+.title> p{
+    color: white;
+ 
+    font-weight: 100px;
+}
+.inputs{
+    display: flex;
+    gap: 20px;
+    height: 70px;
+   border-radius: 10px;
+    width: 800px;
+   margin-left: 200px;
+   justify-content: center;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0.5)), url('path_to_your_background_image.jpg');
+    backdrop-filter: blur(10px); 
+    
+}
+.inputs select{
+   padding:15px 40px;
+   margin-bottom: 30px;
+   border-radius: 10px;
+   background-color: #FFFFFF;
+   width: 100%;
+   height: 80%;
+   margin-top: 10px;
+}
+.inputs button{
+    margin-top: 10px;
+    height: 80%;
+   padding:10px 15px;
+   border-radius: 10px;
+   border: 1px solid white;
+   background-color: #FF5400;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*  */
+
+.Tours{
+    display: flex;
+    justify-content: space-between;
+    margin: 150px 200px;
+    gap: 80px;
+}
+.Tours h1{
+   font-size: 50px;
+}
+.Tours p,ul{
+   font-size: 20px;
+   margin-top: 40px;
+}
+.Tours button{
+   background-color: #FF5400;
+   border: none;
+   color: white;
+   padding:15px 25px;
+   border-radius: 10px;
+   font-size: 20px;
+   margin-top: 30px;
+}
+
+/*Destinantion  */
+.destination{
+    margin: 300px;
+    text-align: center;
+}
+.d-title{
+    font-size: 50px;
+}
+.destination p{
+    font-size: 20px;
+    width: 800px;
+    margin-left: 200px;
+}
+
+.maldives{
+    background-image: url(/Images/Rectangle\ 5.png);
+    height: 300px;
+    width: 100%;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    
+    border-radius: 20px;
+    text-align: center;
+}
+.maldives h1{
+   padding: var(--padding);
+    margin-top: var(--margin-top);
+    color: var(--color);
+    font-size: var(--font-size);
+}
+
+
+
+.indo{
+    background-image: url(/Images/Rectangle\ 8.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100% auto;
+    border-radius: 20px;
+}
+.indo h1{
+    padding: var(--padding);
+    margin-top: var(--margin-top);
+    margin-left: 200px;
+    color: var(--color);
+    font-size: var(--font-size);
+}
+
+
+.sri{
+    background-image: url(/Images/Rectangle\ 6.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size:auto 100%;
+  
+    border-radius: 20px;
+}
+.sri h1{
+    padding: var(--padding);
+    margin-top: var(--margin-top);
+    color: var(--color);
+    font-size: var(--font-size);
+    margin-left: 100px;
+}
+
+.us{
+    background-image: url(/Images/Rectangle\ 7.png);
+    height: 300px;
+    background-size:  100% 100%;
+    background-repeat: no-repeat;
+    width: 150%;
+   border-radius: 20px;
+   border: 1px solid black;
+   
+   
+}
+.us h1{
+    padding: var(--padding);
+    margin-top: var(--margin-top);
+    color: var(--color);
+    font-size: var(--font-size);
+    margin-left: 100px;
+}
+
+.kashmir{
+    background-image: url(/Images/Rectangle\ 9.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size:100% 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    
+}
+.kashmir h1{
+    padding: var(--padding);
+    margin-top: var(--margin-top);
+    color: var(--color);
+    font-size: var(--font-size);
+    margin-left: 80px;
+}
+
+
+
+
+.bd{
+    background-image: url(/Images/Rectangle\ 11.png);
+    height: 300px;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 0px;
+   border-radius: 20px;
+    width: 90%;
+    background-size: 100% auto;
+   
+}
+.bd h1{
+    padding: var(--padding);
+    margin-top: var(--margin-top);
+    color: var(--color);
+    font-size: var(--font-size);
+    margin-left: 100px;
+   
+}
+
+
+
+.bandarban{
+    background-image: url(/Images/Rectangle\ 10.png);
+    height: 300px;
+    background-repeat: no-repeat;
+   width: 100%;
+   
+    border-radius: 20px;
+}
+.bandarban h1{
+    padding: var(--padding);
+    margin-top: var(--margin-top);
+    color: var(--color);
+    font-size: var(--font-size);
+    margin-left: 100px;
+}
+
+
+.row-1{
+    display: flex;  
+    gap: 20px;
+}
+.row-2{
+    display: flex;  
+    gap: 30px;
+    margin-top: 20px ;
+   
+    margin-bottom: 20px;
+}
+
+.row-3{
+    display: flex;
+    gap: 30px;
+    
+}
+
+/* Choose */
+.choose{
+    margin:100px 200px;
+}
+.choose h1{
+    font-size: 50px;
+}
+.choose p{
+    font-size: 20px;
+}
+.choose-row-1{
+    display: flex;
+   gap: 50px;
+   
+}
+.choose-row-2{
+   padding: 60px;
+   width: 40%;
+   margin-left: 400px;
+   background-color: #FCFAF4;
+   margin-top: 50px;
+   border-radius: 10px;
+}
+.choose-card1{
+    padding: 50px;
+    background-color: #FCF4F4;
+    border-radius: 10px;
+}
+.choose-card2{
+    padding: 50px;
+    background-color: #F2FBFC;
+    border-radius: 10px;
+
+}
+
+/* discount */
+.discount{
+    margin: 80px;
+
+}
+.price p{
+color: #FF5400;
+font-size: 30px;
+font-weight: bold;
+}
+.discount h1{
+    font-size: 50px;
+    margin-left: 700px;
+}
+.discount-para{
+    font-size: 20px;
+    margin-left: 400px;
+    width: 1000px;
+}
+.discount-same{
+    background-image: url('/Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+    padding: 50px;
+}
+.discount-second{
+    background-image: url('/Images/Group\ 40.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+    padding: 50px;
+}
+.discount-card{
+   border: 1px solid black;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0.5)), url('path_to_your_background_image.jpg');
+    backdrop-filter: blur(10px); 
+    padding: 80px;
+    margin-left: 1000px;
+    margin-top: 100px;
+
+}
+.discount-card-2{
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0), rgba(255,255,255,0.5)), url('path_to_your_background_image.jpg');
+    backdrop-filter: blur(10px); 
+    padding: 80px;
+    margin-right: 1000px;
+    margin-top: 50px;
+}
+.discount-card-2 button{
+    background-color: #FF5400;
+    border: none;
+    padding: 18px;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+.discount-card ul{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    align-items: center;
+}
+.discount-card button{
+    background-color: #FF5400;
+    border: none;
+    padding: 18px;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+}
+/* review */
+.review h1{
+    font-size: 80px;
+    margin-left: 100px;
+}
+.review p{
+    font-size: 20px;
+    
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.review img{
+    width: 300px;
+    border-radius:30% ;
+}
+.review-card{
+   
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 15px 10px lightblue;
+}
+
+/* newsteller */
+.newsteller{
+    display: flex;
+   gap: 50px;
+    margin:250px 300px ;
+}
+.form{
+    border: 1px solid #FF5400;
+    padding: 50px;
+    border-radius: 10px;
+}
+.form h1{
+    font-size: 30px;
+}
+
+.form input{
+    margin-top: 10px;
+}
+.form input[type="text"]{
+    padding:20px 100px;
+    background-color: #D4D4D4;
+    border: none;
+    border-radius: 5px;
+}
+.form input[type="submit"]{
+    padding:20px 135px;
+    background-color:#FF5400;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+.seal{
+    background-color: #FF5400;
+   padding: 10px;
+    width: 230px;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    transform: rotate(-15deg);
+    position: relative;
+    bottom: 150px;
+    left: 420px;
+    
+
+}
+
+/* footer */
+footer{
+    background-color: #F3F3F3
+    ;
+    height: 502px;
+    width: auto;
+    text-align: center;
+    
+}
+footer ul{
+   display: flex;
+   gap: 30px;
+   list-style: none;
+   margin-left: 800px;
+   margin-top: 100px;
+   
+}
+.footer-logo {
+    display: flex;
+    align-items: center;
+  margin-left: 800px;
+    font-size: 20px;
+}
+
+
+/*  */
+@media screen and (max-width:576px) {
+    nav {
+       flex-direction: column;
+    }
+    nav>ul {
+       
+        gap: 10px;
+    
+    }
+    .banner {
+
+      margin: 0px;
+      height: 900px;
+      text-align: center;
+    
+    }
+    .title{
+        padding: 0px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .title h1 {
+        color: #FFFFFF;
+        font-size: 20px;
+       
+    }
+    .title> p{
+        color: white;
+     
+       
+    }
+    .inputs{
+        flex-direction: column;
+        width: 300px;
+        height: 300px;
+        margin-top: 10px;
+        gap: 0px;
+        margin-left: 100px;
+    }
+    .inputs select{
+     padding: 10px;
+       margin: 10px;
+      width: 80%;
+     }
+     .Tours{
+        flex-direction: column;
+       
+        margin: 150px 100px;
+        gap: 80px;
+    }
+    .tour-img img{
+        width: 100%;
+        
+       
+        
+    }
+    .tour-text{
+        width: 100%;
+       
+    }
+.destination{
+    margin: 0px;
+
+}
+.destination p{
+   width: 100%;
+   margin: 0px;
+
+}
+.row-1{
+    flex-direction: column;
+}
+.row-2{
+    flex-direction: column;
+}
+.row-3{
+    flex-direction: column;
+}
+ .d-text{
+    width: 100%;
+ }
+ .us{
+      
+    background-size:100%  100%;
+    background-repeat: no-repeat;
+    width: 100%;
+   border-radius: 20px;
+   border: 1px solid black;
+   
+}
+.sri{
+   
+    width: 100%;
+    background-size:auto 200%;
+  
+    border-radius: 20px;
+}
+.kashmir{
+   
+    width: 100%;
+    background-size:auto 200%;
+  
+    border-radius: 20px;
+}
+.bd{
+   
+    width: 100%;
+    background-size:100% 200%;
+  
+    border-radius: 20px;
+}
+   
+.choose{
+    margin:0px;
+}
+.choose-row-1{
+    flex-direction: column;
+   
+}
+
+
+.choose-card1{
+    padding: 0px;
+    width: 100%;
+   height: 200%;
+}
+.choose-card2{
+    padding: 0px;
+    width: 100%;
+   height: 200%;
+
+}
+.choose-row-2{
+   height: 10%;
+    width: 100%;
+   padding: 0px;
+    margin: 0px;
+    background-color: #FCFAF4;
+margin-top: 30px;
+    border-radius: 10px;
+    
+ }
+
+
+ .discount-para{
+    
+    width:100%;
+    margin: 0px;
+}
+.discount h1{
+   
+    margin-left: 0px;
+}
+ .discount-same {
+        background-size: 800px 700px;
+}
+.discount-second{
+    background-size: 800px 700px;
+}
+.discount-card{
+    
+    
+     padding: 20px;
+     margin-left: 0px;
+     margin-top: 0px;
+     height: 600px;
+ 
+ }
+.discount-card p{
+    
+    
+    font-size: 15px;
+ 
+ }
+ .discount-card-2{
+   
+       
+        backdrop-filter: blur(10px); 
+        padding: 20px;
+        margin: 0px;
+    }
+.price p{
+    font-size: 20px;
+}
+
+    .discount-card-2 ul{
+        flex-wrap: wrap;
+        }
+     
+     .discount-card ul{
+        flex-wrap: wrap;
+      
+    }
+    
+    
+    .discount-card button{
+       
+        padding: 8px;
+        color: white;
+       
+        font-size: 10px;
+    }
+
+   
+
+.discount-second button{
+    padding: 8px;
+    color: white;
+   
+    font-size: 10px;
+}
+
+
+.newsteller{
+    flex-direction: column;
+   gap: 50px;
+    margin:0px ;
+    margin-top: 100px;
+}
+
+.seal{
+    
+   padding: 10px;
+    width: 200px;
+    
+    font-size: 10px;
+   
+    bottom: 100px;
+    left: 240px;
+    
+
+}
+.form-img img{
+    width: 100%;
+}
+
+footer{
+   
+    height: auto;
+    width: 100%;
+    text-align: center;
+    
+}
+footer ul{
+   display: flex;
+   gap: 30px;
+   list-style: none;
+  margin: 0px;
+  margin-left: 100px;
+   
+}
+.footer-logo {
+    
+  margin: 0px;
+  margin-left: 90px;
+}
+
+
+    }
+
+
+
+
+
+
+
+
